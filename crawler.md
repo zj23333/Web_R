@@ -8,12 +8,12 @@ venv, virtualenv, virtualenvwrapper, pipenv, pyenv, conda
 
 ### 创建环境
 
-进入项目目录
-$ virtualenv myenv   创建虚拟环境
+进入项目目录  
+$ virtualenv myenv   创建虚拟环境  
 
 ### 文件结构
 
-在项目目录下
+在项目目录下  
 
 ```
 myenv/                  # 虚拟环境根目录
@@ -31,5 +31,5 @@ myenv/                  # 虚拟环境根目录
 
 ### 激活/退出环境
 
-$ source myenv/bin/activate
-$ deactivate
+$ source myenv/bin/activate  
+$ deactivate  
