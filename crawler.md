@@ -9,7 +9,7 @@ venv, virtualenv, virtualenvwrapper, pipenv, pyenv, conda
 ### 创建环境
 
 进入项目目录  
-$ virtualenv myenv   创建虚拟环境  
+`$ virtualenv myenv`   创建虚拟环境  
 
 ### 文件结构
 
@@ -31,5 +31,8 @@ myenv/                  # 虚拟环境根目录
 
 ### 激活/退出环境
 
-$ source myenv/bin/activate  
-$ deactivate  
+`$ source myenv/bin/activate`  
+激活后，终端会变成`(myenv) user@host:~/project$`  
+然后照常使用pip,库会安装到`myenv/lib/pythonX.X/site-packages/`  
+`$ deactivate`  
+终端恢复  
