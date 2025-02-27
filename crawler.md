@@ -36,3 +36,18 @@ myenv/                  # 虚拟环境根目录
 然后照常使用pip,库会安装到`myenv/lib/pythonX.X/site-packages/`  
 `$ deactivate`  
 终端恢复  
+
+# 安装python库
+
+```
+pip install pyppeteer
+pip install paddlepaddle
+pip install paddleocr
+pip install yt-dlp
+pip install ffmpeg
+pip install --upgrade setuptools
+```
+
+# 使用PaddleOCR
+
+运行PaddleOCR会自动下载**预训练模型**（.tar文件）。
