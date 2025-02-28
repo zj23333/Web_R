@@ -51,3 +51,9 @@ pip install --upgrade setuptools
 # 使用PaddleOCR
 
 运行PaddleOCR会自动下载**预训练模型**（.tar文件）。
+
+# Linux部分屏幕截图
+
+Shift + PrtSc
+
+# 
