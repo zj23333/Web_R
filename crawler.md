@@ -56,4 +56,17 @@ pip install --upgrade setuptools
 
 Shift + PrtSc
 
-# 
+# 下载B站视频的命令行工具
+
+yt-dlp：可以下很多网站的视频，但是下B站的视频有些只有声音没有图像  
+<https://github.com/yt-dlp/yt-dlp>  
+you-get：可以下很多网站的视频/图片/文字，但是不用cookie下B站的视频只能下480p的  
+<https://github.com/soimort/you-get>  
+BBDown：专门下B站的工具，功能强大，可以下1080p的，每一个视频都能下，能下列表/弹幕/字幕/封面etc  
+<https://github.com/nilaoda/BBDown>  
+lux：可以下很多网站的视频/图片/文字，还没试  
+<https://github.com/iawia002/lux>  
+youtube-dl：可以下很多网站的视频，还没试  
+<https://github.com/ytdl-org/youtube-dl>  
+bilix:专门下B站的工具，还没试  
+<https://github.com/HFrost0/bilix>  
