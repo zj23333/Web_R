@@ -70,3 +70,13 @@ youtube-dl：可以下很多网站的视频，还没试
 <https://github.com/ytdl-org/youtube-dl>  
 bilix:专门下B站的工具，还没试  
 <https://github.com/HFrost0/bilix>  
+
+
+# 盲生发现了华点
+
+用BBDown下载视频的时候，视频流编码选择HEVC就有画面，AV1或AVC没有画面，至少用VLC播放器时是这样的。
+
+
+# 用到的options
+
+-e, --encoding-priority <encoding-priority>    视频编码的选择优先级, 用逗号分割 例: "hevc,av1,avc"
