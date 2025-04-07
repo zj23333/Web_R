@@ -101,7 +101,7 @@ BBDown <url> [command] [options]
 hevc编码，最高清晰度的音频和视频，下载弹幕，封面，字幕  
 
 ```
-./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf -e hevc,av1,avc -dd
-./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf --sub-only
-./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf --cover-only
+./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf -e hevc,av1,avc -dd    # 优先下载hevc编码的视频，下载弹幕
+./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf --sub-only    # 下载字幕
+./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf --cover-only    # 下载封面
 ```
