@@ -81,21 +81,27 @@ bilix:专门下B站的工具，还没试
 
 BBDown <url> [command] [options]
 
-  -e, --encoding-priority <encoding-priority>    视频编码的选择优先级, 用逗号分割 例: "hevc,av1,avc"
-  -q, --dfn-priority <dfn-priority>              画质优先级,用逗号分隔 例: "8K 超高清, 1080P 高码率, HDR 真彩, 杜比视界"
-  -info, --only-show-info                        仅解析而不进行下载
-  --show-all                                     展示所有分P标题
-  -ia, --interactive                             交互式选择清晰度
-  --video-only                                   仅下载视频
-  --audio-only                                   仅下载音频
-  --danmaku-only                                 仅下载弹幕
-  --sub-only                                     仅下载字幕
-  --cover-only                                   仅下载封面
-  --debug                                        输出调试日志
-  --skip-mux                                     跳过混流步骤
-  -dd, --download-danmaku                        下载弹幕
-  -p, --select-page <select-page>                选择指定分p或分p范围: (-p 8 或 -p 1,2 或 -p 3-5 或 -p ALL 或 -p LAST 或 -p 3,5,LATEST)
+  -e, --encoding-priority <encoding-priority>    视频编码的选择优先级, 用逗号分割 例: "hevc,av1,avc"  
+  -q, --dfn-priority <dfn-priority>              画质优先级,用逗号分隔 例: "8K 超高清, 1080P 高码率, HDR 真彩, 杜比视界"  
+  -info, --only-show-info                        仅解析而不进行下载  
+  --show-all                                     展示所有分P标题  
+  -ia, --interactive                             交互式选择清晰度  
+  --video-only                                   仅下载视频  
+  --audio-only                                   仅下载音频  
+  --danmaku-only                                 仅下载弹幕  
+  --sub-only                                     仅下载字幕  
+  --cover-only                                   仅下载封面  
+  --debug                                        输出调试日志  
+  --skip-mux                                     跳过混流步骤  
+  -dd, --download-danmaku                        下载弹幕  
+  -p, --select-page <select-page>                选择指定分p或分p范围: (-p 8 或 -p 1,2 或 -p 3-5 或 -p ALL 或 -p LAST 或 -p 3,5,LATEST)  
 
-# 下载目标
+# 下载目标&命令
 
-hevc编码，最高清晰度的音频和视频，下载弹幕，封面，字幕
+hevc编码，最高清晰度的音频和视频，下载弹幕，封面，字幕  
+
+```
+./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf -e hevc,av1,avc -dd
+./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf --sub-only
+./BBDown https://www.bilibili.com/video/BV1EjdcY7EWf --cover-only
+```
