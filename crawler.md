@@ -74,8 +74,11 @@ bilix:专门下B站的工具，还没试
 
 # 盲生发现了华点
 
-用BBDown下载视频的时候，视频流编码选择HEVC就有画面，AV1或AVC没有画面，至少用VLC播放器时是这样的。
-
+用BBDown下载视频的时候，视频流编码选择HEVC或AVC就有画面，ffmpeg也能处理;AV1没有画面，ffmpeg会报错。VLC播放器用了ffmpeg所以他们一荣俱荣，一损俱损。
+```
+[ERROR:0@1324.386] global cap_ffmpeg_impl.hpp:1367 open Could not open codec av1, error: -1163346256                                                                            
+[ERROR:0@1324.386] global cap_ffmpeg_impl.hpp:1375 open VIDEOIO/FFMPEG: Failed to initialize VideoCapture
+```
 
 # 用到的options
 
